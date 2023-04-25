@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/TestStockEasy/CSS/style.css">
+    </head>
+    <body>
+        
+        <img src="/TestStockEasy/Media/add-friend.png" alt="Logo"/><br><br><br><br><br>
+
+        <form class="cardProd" action="/TestStockEasy/ServletUserRegistration" method="post">
+            <input type="text" minlength="3" maxlength="20" id="name" name="user_name" placeholder="User Name" >
+            <input type="password" minlength="6" maxlength="40" id="pass" name="user_pass" placeholder="Password" >
+            <input type="email" id="pass" name="user_mail" placeholder="Email" >
+            <input type="text" minlength="5" maxlength="40" id="adresse" name="user_adresse" placeholder="Adresse" >
+            <input type="text" minlength="5" maxlength="5" id="cp" name="user_cp" placeholder="Code Postal" >
+            <input type="text" minlength="2" maxlength="20" id="ville" name="user_ville" placeholder="Ville" >
+            
+            <button type="submit">Login</button>
+            <button ><a href="/TestStockEasy/">Back</a></button>
+        </form>
+    </body>
+</html>

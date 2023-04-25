@@ -1,0 +1,6 @@
+com\app\entites\LigneCommandeDeCommandeRegister.class
+com\app\servlet\ServletAfficherProduitEnStock.class
+com\app\dao\DAOConnectionManager.class
+com\app\dao\DAOGestionProduit.class
+com\app\dao\IDAOGestionProduit.class
+com\app\entites\Produit.class
