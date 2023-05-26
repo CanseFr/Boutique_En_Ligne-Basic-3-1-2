@@ -6,7 +6,7 @@ package com.app.Beans;
 
 import com.app.entites.Produit;
 
-/**
+/** 
  *
  * @author julie
  */
